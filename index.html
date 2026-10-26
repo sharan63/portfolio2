@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Professional personal portfolio website">
+
+    <title>My Portfolio | Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>Portfolio<span>/&gt;</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="#home" class="nav-link active">Home</a>
+            </li>
+
+            <li>
+                <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+                <a href="#skills" class="nav-link">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+
+        </ul>
+
+        <div class="nav-actions">
+
+            <button id="themeToggle" class="icon-btn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button id="menuBtn" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <!-- Antigravity floating elements -->
+
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+    <div class="floating-shape shape-4"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <p class="intro">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                Your <span>SHARAN</span>
+            </h1>
+
+            <h2>
+                <span id="typingText"></span>
+            </h2>
+
+            <p class="hero-description">
+                I create modern, responsive and user-friendly
+                websites using HTML, CSS, JavaScript and
+                modern web technologies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE IMAGE -->
+
+        <div class="hero-image">
+
+            <div class="image-orbit orbit-1"></div>
+            <div class="image-orbit orbit-2"></div>
+
+            <div class="image-card">
+
+                <img src="profile.img.jpeg"
+                     alt="My Profile Photo">
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <p>GET TO KNOW ME</p>
+
+        <h2>About <span>Me</span></h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <div class="about-image-box">
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <h3>
+                Passionate Developer Creating Digital Experiences
+            </h3>
+
+            <p>
+                I'm a passionate developer interested in creating
+                modern and interactive websites. I enjoy turning
+                ideas into real-world digital experiences.
+            </p>
+
+            <p>
+                My focus is on writing clean code, creating
+                responsive layouts and building applications
+                that provide a great user experience.
+            </p>
+
+
+            <div class="about-info">
+
+                <div>
+                    <strong>Name:</strong>
+                    <span>SHARAN</span>
+                </div>
+
+                <div>
+                    <strong>Email:</strong>
+                    <span>sharantsmca@gmail.com</span>
+                </div>
+
+                <div>
+                    <strong>Role:</strong>
+                    <span>Frontend Developer</span>
+                </div>
+
+                <div>
+                    <strong>Location:</strong>
+                    <span>Tamil Nadu, India</span>
+                </div>
+
+            </div>
+
+            <a href="#contact" class="btn primary-btn">
+                Let's Work Together
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="section-heading">
+
+        <p>MY EXPERTISE</p>
+
+        <h2>Technical <span>Skills</span></h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="skills-container">
+
+        <!-- HTML -->
+
+        <div class="skill-card">
+
+            <div class="skill-icon html-icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <div class="skill-info">
+
+                <h3>HTML</h3>
+
+                <div class="skill-bar">
+                    <span data-width="90%"></span>
+                </div>
+
+                <p>90%</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CSS -->
+
+        <div class="skill-card">
+
+            <div class="skill-icon css-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <div class="skill-info">
+
+                <h3>CSS</h3>
+
+                <div class="skill-bar">
+                    <span data-width="85%"></span>
+                </div>
+
+                <p>85%</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- JavaScript -->
+
+        <div class="skill-card">
+
+            <div class="skill-icon js-icon">
+                <i class="fa-brands fa-js"></i>
+            </div>
+
+            <div class="skill-info">
+
+                <h3>JavaScript</h3>
+
+                <div class="skill-bar">
+                    <span data-width="80%"></span>
+                </div>
+
+                <p>80%</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Git -->
+
+        <div class="skill-card">
+
+            <div class="skill-icon git-icon">
+                <i class="fa-brands fa-git-alt"></i>
+            </div>
+
+            <div class="skill-info">
+
+                <h3>Git & GitHub</h3>
+
+                <div class="skill-bar">
+                    <span data-width="75%"></span>
+                </div>
+
+                <p>75%</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="tools">
+
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Responsive Design</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <p>MY RECENT WORK</p>
+
+        <h2>Featured <span>Projects</span></h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="projects-container">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <div class="project-image">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <i class="fa-solid fa-book-open"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+                    Web Application
+                </span>
+
+                <h3>
+                    Digital Library Management System
+                </h3>
+
+                <p>
+                    A responsive digital library system with
+                    book management, add/edit/delete operations
+                    and browser local storage.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" class="project-link">
+                        Live Demo
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <a href="#" class="project-link">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-image project-two">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+                    JavaScript Project
+                </span>
+
+                <h3>
+                    Interactive Map Application
+                </h3>
+
+                <p>
+                    An interactive map interface that displays
+                    locations and routes using JavaScript
+                    map technology.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" class="project-link">
+                        Live Demo
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <a href="#" class="project-link">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-image project-three">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+                    Personal Project
+                </span>
+
+                <h3>
+                    Personal Portfolio Website
+                </h3>
+
+                <p>
+                    A professional responsive portfolio website
+                    showcasing skills, projects and contact
+                    information.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#" class="project-link">
+                        Live Demo
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <a href="#" class="project-link">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="section-heading">
+
+        <p>GET IN TOUCH</p>
+
+        <h2>Contact <span>Me</span></h2>
+
+        <div class="heading-line"></div>
+
+    </div>
+
+
+    <div class="contact-container">
+
+
+        <div class="contact-info">
+
+            <h3>
+                Let's Build Something Great Together
+            </h3>
+
+            <p>
+                Have a project idea or want to work together?
+                Send me a message and I'll get back to you.
+            </p>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div>
+                    <span>Email</span>
+                    <p>sharantsmca@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                    <span>Location</span>
+                    <p>Tamil Nadu, India</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <div>
+                    <span>Phone</span>
+                    <p>+91 90256 64231</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="input-row">
+
+                <div class="input-group">
+
+                    <label>Name</label>
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Your Name"
+                           required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Email</label>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="Your Email"
+                           required>
+
+                </div>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Subject</label>
+
+                <input type="text"
+                       id="subject"
+                       placeholder="Project Subject"
+                       required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Message</label>
+
+                <textarea id="message"
+                          rows="6"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+            </div>
+
+
+            <button type="submit"
+                    class="btn primary-btn submit-btn">
+
+                Send Message
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>Portfolio<span>/&gt;</span>
+        </a>
+
+        <p>
+            Designed & Developed with ❤️
+        </p>
+
+        <div class="footer-social">
+
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 SHARAN. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- Scroll Top -->
+
+<button id="scrollTop" class="scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
